@@ -1,4 +1,4 @@
-12.08.26
+19.08.26
 1. A solução para o problema seria o uso de várias máquinas;
 2. A grande quantidade de dados requereria a divisão dos dados em blocos, por exemplo;
 3. As maquinas fariam sozinhas o processamento de cada bloco de dados;

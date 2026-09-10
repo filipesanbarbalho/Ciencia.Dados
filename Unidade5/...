@@ -1,0 +1,5 @@
+df["data_abertura"] = pd.to_datetime(df["data_abertura"])
+df["tempo_dias"] = df["tempo_resolucao_horas"] / 24
+media = df.groupby("categoria")["tempo_resolucao_horas"].mean().sort_values(ascending=False)
+media
+     

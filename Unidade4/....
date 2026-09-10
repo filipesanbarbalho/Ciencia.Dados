@@ -1,0 +1,5 @@
+altos = df[df["prioridade"] == "Alta"]
+lentos = df[(df["status"] == "Resolvido") & (df["tempo_resolucao_horas"] > 24)]
+rede_acesso = df[df["categoria"].isin(["Rede", "Acesso"])]
+print(altos.shape[0], lentos.shape[0], rede_acesso.shape[0])
+     
